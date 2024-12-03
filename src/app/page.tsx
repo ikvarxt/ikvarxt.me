@@ -25,18 +25,18 @@ function SocialLinks({ links }: { links: SocialLink[] }) {
 
 export default function Home() {
   const socialLinks: SocialLink[] = [
+    // {
+    //   name: "Twitter",
+    //   url: "https://twitter.com/yourusername",
+    // },
     {
-      name: "Twitter",
-      url: "https://twitter.com/yourusername",
-    },
-    {
-      name: "GitHub", 
+      name: "GitHub",
       url: "https://github.com/ikvarxt",
     },
-    {
-      name: "LinkedIn",
-      url: "https://linkedin.com/in/yourusername",
-    },
+    // {
+    //   name: "LinkedIn",
+    //   url: "https://linkedin.com/in/yourusername",
+    // },
   ];
 
   return (
@@ -55,7 +55,7 @@ export default function Home() {
           <div className="flex flex-col gap-2">
             <h2 className="text-xl font-semibold">About Me</h2>
             <p className="text-gray-600 dark:text-gray-400 max-w-xl">
-              I'm a software developer with a focus on web technologies. I enjoy creating elegant solutions to complex problems and learning new technologies.
+              I'm a software developer with a focus on mobile technologies, specializing in both Android and iOS development. I enjoy creating elegant solutions to complex problems and learning new technologies.
             </p>
           </div>
         </div>
