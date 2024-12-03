@@ -23,5 +23,8 @@
     "eslint": "^8",
     "eslint-config-next": "15.0.3"
   },
-  "packageManager": "yarn@1.22.22"
+  "packageManager": "yarn@1.22.22",
+  "engines": {
+    "node": ">=20.0.0"
+  }
 }
