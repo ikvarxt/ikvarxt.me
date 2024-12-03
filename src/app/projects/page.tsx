@@ -12,18 +12,19 @@ interface Project {
 const projects: Project[] = [
   {
     title: "PipSticker",
-    description: "Convert any screen to floating window with PipSticker - A handy Picture in Picture tool.",
+    description:
+      "Convert any screen to floating window with PipSticker - A handy Picture in Picture tool.",
     technologies: ["Android", "Kotlin", "Jetpack"],
     link: "https://pip.ikvarxt.me",
     icon: "/icons/pip.png",
   },
-//   {
-//     title: "Project Two", 
-//     description: "Description of your second project highlighting key features.",
-//     technologies: ["Node.js", "Express", "MongoDB"],
-//     link: "https://github.com/yourusername/project-two",
-//     icon: "/icons/project-two.png",
-//   },
+  //   {
+  //     title: "Project Two",
+  //     description: "Description of your second project highlighting key features.",
+  //     technologies: ["Node.js", "Express", "MongoDB"],
+  //     link: "https://github.com/yourusername/project-two",
+  //     icon: "/icons/project-two.png",
+  //   },
 ];
 
 export default function Projects() {

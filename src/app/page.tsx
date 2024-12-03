@@ -43,11 +43,10 @@ export default function Home() {
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <div className="flex flex-col items-center sm:items-start gap-4">
-          <h1 className="text-4xl sm:text-5xl font-bold">
-            Hi, I'm ikvarxt
-          </h1>
+          <h1 className="text-4xl sm:text-5xl font-bold">Hi, I&apos;m ikvarxt</h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl text-center sm:text-left">
-            Welcome to my personal space on the web. I'm a passionate developer who loves building beautiful and functional applications.
+            Welcome to my personal space on the web. I&apos;m a passionate developer
+            who loves building beautiful and functional applications.
           </p>
         </div>
 
@@ -55,7 +54,10 @@ export default function Home() {
           <div className="flex flex-col gap-2">
             <h2 className="text-xl font-semibold">About Me</h2>
             <p className="text-gray-600 dark:text-gray-400 max-w-xl">
-              I'm a software developer with a focus on mobile technologies, specializing in both Android and iOS development. I enjoy creating elegant solutions to complex problems and learning new technologies.
+              I&apos;m a software developer with a focus on mobile technologies,
+              specializing in both Android and iOS development. I enjoy creating
+              elegant solutions to complex problems and learning new
+              technologies.
             </p>
           </div>
         </div>
