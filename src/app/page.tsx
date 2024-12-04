@@ -59,6 +59,10 @@ export default function Home() {
       primary: true,
     },
     {
+      label: "My Blog",
+      href: "https://blog.ikvarxt.me",
+    },
+    {
       label: "Contact Me",
       href: "mailto:your.email@example.com",
       rel: "noopener noreferrer",
