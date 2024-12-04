@@ -43,6 +43,7 @@ export default function Projects() {
                   <Image
                     src={project.icon}
                     alt={`${project.title} icon`}
+                    sizes="100%"
                     fill
                     className="object-contain rounded-lg"
                   />
